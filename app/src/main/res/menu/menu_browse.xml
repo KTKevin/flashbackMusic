@@ -1,0 +1,39 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- switch modes, should appear as action button if possible -->
+    <item
+        android:id="@+id/action_vibemode"
+        android:icon="@drawable/ic_surround_sound_white_24dp"
+        android:title="Vibe Mode"
+        app:showAsAction="ifRoom"/>
+
+    <!-- filter, sort the list by ... -->
+    <item
+        android:id="@+id/action_sort"
+        android:title="Sort by ..."
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/menu_sort_by_title"
+                android:title="Title"/>
+            <item
+                android:id="@+id/menu_sort_by_album"
+                android:title="Album"/>
+            <item
+                android:id="@+id/menu_sort_by_artist"
+                android:title="Artist"/>
+            <item
+                android:id="@+id/menu_sort_by_favorite"
+                android:title="Favorate Status"/>
+        </menu>
+    </item>
+
+    <!-- setting, should always be in the overflow -->
+    <item
+        android:id="@+id/action_setting"
+        android:title="Setting"
+        app:showAsAction="never" />
+
+</menu>

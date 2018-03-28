@@ -1,0 +1,14 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="15dp"
+    android:paddingVertical="6dp">
+
+    <Button
+        android:id="@+id/stop_flashback_bttn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/stop_flashback_mode"
+        android:background="@color/red"
+        />
+</RelativeLayout>

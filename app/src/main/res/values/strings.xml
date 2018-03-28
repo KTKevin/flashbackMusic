@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Flashback Music</string>
+    <string name="action_settings">Settings</string>
+    <string name="start_flashback_mode">Start Flashback Mode</string>
+    <string name="stop_flashback_mode">Stop Flashback Mode</string>
+    <string name="date">Date: %1$s</string>
+    <string name="time">Time: %1$s</string>
+    <string name="time_format">%02d:%02d:%02d</string>
+    <string name="loc">Location: %1$s</string>
+    <string name="per">Person: %1$s</string>
+    <string name="na">N\\A</string>
+    <string name="last_played">Last Played Information:</string>
+    <string name="enter_url">Enter URL</string>
+    <string name="enter_download_location">Enter Download Location</string>
+    <string name="download">Download</string>
+    <string name="cancel">Cancel Download</string>
+    <string name="check">Check Download</string>
+    <string name="download_in_progress">Download In Progress</string>
+    <string name="defaultURL">https://www.dropbox.com/s/fg7gc1tmdl1jre8/transmission-002-the-blackhole.mp3?dl=1</string>
+    <string name="clientID">343361282944-cq1n57691nrt2foq0b0ge076nkmkvm79.apps.googleusercontent.com</string>
+    <string name="clientSecret">nGk1A_UGtg1Nfi8WppmzJ3gg</string>
+    <string name="set_hour">Enter Hour</string>
+    <string name="set_minute">Enter Minute</string>
+    <string name="set_second">Enter Second</string>
+    <string name="set_year">Enter Year</string>
+    <string name="set_month">Enter Month</string>
+    <string name="set_day">Enter Day</string>
+    <string name="update_time">Update Time</string>
+</resources>
